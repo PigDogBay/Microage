@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Microage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_content_description_title_graphic">Title graphic</string>
+    <string name="home_content_description_mission_button">mission button</string>
+    <string name="home_content_description_mission_badge_button">mission badge button</string>
+    <string name="home_content_description_ask_an_astronaut_button">ask an astronaut button</string>
+    <string name="home_content_description_meet_the_team_button">meet the team button</string>
+    <string name="home_content_description_mission_updates_button">mission updates button</string>
 
 </resources>

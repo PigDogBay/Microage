@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_backgroud"
+    android:fillViewport="true"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_title_graphic"
+            android:src="@drawable/home_title" />
+
+        <ImageView
+            android:id="@+id/home_mission"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_button"
+            android:src="@drawable/home_mission_button" />
+
+        <ImageView
+            android:id="@+id/home_badge"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_badge_button"
+            android:src="@drawable/home_badge" />
+
+        <ImageView
+            android:id="@+id/home_astronaut"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_ask_an_astronaut_button"
+            android:src="@drawable/home_astronaut" />
+
+        <ImageView
+            android:id="@+id/home_team"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_meet_the_team_button"
+            android:src="@drawable/home_team" />
+
+        <ImageView
+            android:id="@+id/home_updates"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/home_updates" />
+    </LinearLayout>
+</ScrollView>
