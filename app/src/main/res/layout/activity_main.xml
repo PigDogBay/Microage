@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_backgroud"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="Title graphic"
+            android:src="@drawable/home_title" />
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="mission button"
+            android:src="@drawable/home_mission_button" />
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="mission badge button"
+            android:src="@drawable/home_badge" />
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="ask an astronaut button"
+            android:src="@drawable/home_astronaut" />
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="meet the team button"
+            android:src="@drawable/home_team" />
+
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="mission updates button"
+            android:src="@drawable/home_updates" />
+    </LinearLayout>
+</ScrollView>
