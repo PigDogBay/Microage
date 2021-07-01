@@ -14,15 +14,18 @@
 
         <ImageView
             style="@style/Microage.ImageView"
-            android:src="@drawable/mission1_a" />
+            android:src="@drawable/mission7_a" />
         <ImageView
             style="@style/Microage.ImageView"
-            android:src="@drawable/mission1_b" />
+            android:src="@drawable/mission7_b" />
         <ImageView
             style="@style/Microage.ImageView"
-            android:src="@drawable/mission1_c" />
+            android:src="@drawable/mission7_c" />
         <ImageView
             style="@style/Microage.ImageView"
-            android:src="@drawable/mission1_d" />
+            android:src="@drawable/mission7_d" />
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:src="@drawable/mission7_e" />
     </LinearLayout>
 </ScrollView>
