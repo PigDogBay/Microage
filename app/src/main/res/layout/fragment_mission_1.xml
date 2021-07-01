@@ -24,5 +24,8 @@
         <ImageView
             style="@style/Microage.ImageView"
             android:src="@drawable/mission1_d" />
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:src="@drawable/mission1_e" />
     </LinearLayout>
 </ScrollView>
