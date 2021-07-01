@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MissionFragment">
+    android:background="@color/home_backgroud"
+    android:fillViewport="true"
+    tools:context=".HomeFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="The Mission" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:src="@drawable/mission1_a" />
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:src="@drawable/mission1_b" />
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:src="@drawable/mission1_c" />
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:src="@drawable/mission1_d" />
+    </LinearLayout>
+</ScrollView>
