@@ -17,11 +17,16 @@ class Coordinator {
 
     fun show(person : TeamMember){
         selectedPerson = person
-        view?.show(Screen.TeamMember)
+        show(Screen.TeamMember)
     }
 
     fun onBackPressed() : Boolean{
-        view?.show(Screen.Home)
+        val current = view?.currentScreen ?: Screen.Home
+        when {
+            current === Screen.TeamMember -> view?.show(Screen.Team)
+            current === Screen.Home -> return true
+            else -> view?.show(Screen.Home)
+        }
         return false
     }
 
