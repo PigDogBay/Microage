@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/mission_background"
     android:fillViewport="true"
-    tools:context=".HomeFragment">
+    tools:context=".TeamFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

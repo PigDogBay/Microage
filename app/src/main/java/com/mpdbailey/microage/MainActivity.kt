@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity(), CoordinatorView {
             Screen.Astronaut -> AstronautFragment()
             Screen.Team -> TeamFragment()
             Screen.Updates -> UpdateFragment()
+            Screen.TeamMember -> TeamMemberFragment()
         }
         replaceMainFragment(fragment, screen)
     }

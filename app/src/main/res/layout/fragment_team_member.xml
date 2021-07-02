@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mission_background"
+    android:fillViewport="true"
+    tools:context=".TeamMemberFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/teamMemberAcademicTitle"
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="@string/team_member_title_academic" />
+
+        <TextView
+            android:id="@+id/teamMemberAcademic"
+            style="@style/Microage.Widget.Text.Body"
+            tools:text="Muscle physiology" />
+
+        <TextView
+            android:id="@+id/teamMemberLabTitle"
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="@string/team_member_title_lab" />
+
+        <TextView
+            android:id="@+id/teamMemberLab"
+            style="@style/Microage.Widget.Text.Body"
+            tools:text="When experiments work!" />
+
+        <TextView
+            android:id="@+id/teamMemberPlanetTitle"
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="@string/team_member_title_planet" />
+
+        <TextView
+            android:id="@+id/teamMemberPlanet"
+            style="@style/Microage.Widget.Text.Body"
+            tools:text="Pluto" />
+
+        <TextView
+            android:id="@+id/teamMemberFactTitle"
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="@string/team_member_title_fact" />
+
+        <TextView
+            android:id="@+id/teamMemberFact"
+            style="@style/Microage.Widget.Text.Body"
+            tools:text="Training my dog to compete in agility and obedience" />
+
+        <TextView
+            android:id="@+id/teamMemberBio"
+            style="@style/Microage.Widget.Text.Body"
+            tools:text="I have more than 25 years of experience in the space industry and collaboration with the European Space Agency, NASA, other National Space Agencies and European research institutions. My competencies range from project management, to payload safety and product assurance, space systems design, qualification and certification, systems engineering, human factors, manned flight operations and mission support. I have a significant experience for programmes supporting investigations on board the International Space Station, in particular for Life Science experiments, in collaboration with the European Space Agency, the Italian Space Agency, the UK Space Agency and NASA.\n\nI coordinated and conducted hardware tests, crew reviews, dry runs, experiment simulations, payload integration and pre/post flight activities at the European Astronaut Centre, Star City (the home base of the Russian cosmonauts), the Russian cosmodromes of Plesetsk and Baikonour, the Kennedy Space Center in Florida (where the hardware launching with US vehicles is prepared), the Johnson Space Center in Texas (where the non-Russian crewmembers are trained for most modules and facilities of the International Space Station). I supported payload operations on board the Space Station with more than a dozen astronauts." />
+
+    </LinearLayout>
+</ScrollView>
