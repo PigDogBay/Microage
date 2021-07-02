@@ -1,13 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TeamFragment">
+    android:background="@color/mission_background"
+    android:fillViewport="true"
+    tools:context=".HomeFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Meet the Team" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_title_graphic"
+            android:src="@drawable/team0_title" />
+
+        <ImageView
+            android:id="@+id/team_anne"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_button"
+            android:src="@drawable/team1_anne" />
+
+        <ImageView
+            android:id="@+id/team_sam"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_badge_button"
+            android:src="@drawable/team2_sam" />
+
+        <ImageView
+            android:id="@+id/team_kim"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_ask_an_astronaut_button"
+            android:src="@drawable/team3_kim" />
+
+        <ImageView
+            android:id="@+id/team_harvey"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_meet_the_team_button"
+            android:src="@drawable/team4_harvey" />
+
+        <ImageView
+            android:id="@+id/team_shah"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/team5_shah" />
+
+        <ImageView
+            android:id="@+id/team_malc"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/team6_malc" />
+
+        <ImageView
+            android:id="@+id/team_james"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/team7_james" />
+
+        <ImageView
+            android:id="@+id/team_kai"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/team8_kai" />
+
+        <ImageView
+            android:id="@+id/team_chris"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/team9_chris" />
+
+        <ImageView
+            android:id="@+id/team_libby"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/teama_libby" />
+
+        <ImageView
+            android:id="@+id/team_gianluca"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/teamb_gianluca" />
+
+        <ImageView
+            android:id="@+id/team_ta"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/home_content_description_mission_updates_button"
+            android:src="@drawable/teamc_ta" />
+    </LinearLayout>
+</ScrollView>
