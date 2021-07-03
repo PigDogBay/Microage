@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/mission_background"
     android:fillViewport="true"
     tools:context=".TeamFragment">
@@ -88,5 +89,21 @@
             style="@style/Microage.ImageView"
             android:contentDescription="@string/home_content_description_mission_updates_button"
             android:src="@drawable/teamc_ta" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            android:layout_marginStart="3.8dp"
+            android:layout_marginEnd="2dp"
+            android:background="@color/white"
+            >
+            <TextView
+                style="@style/Microage.Widget.Text.Subtitle"
+                android:text="@string/team_member_others"
+                android:layout_marginBottom="64dp"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </ScrollView>
