@@ -34,4 +34,12 @@
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginRight">16dp</item>
     </style>
+
+    <style name="Microage.Widget.Button" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="cornerRadius">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:textColor">?android:attr/colorButtonNormal</item>
+        <item name="rippleColor">?attr/colorSecondary</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
 </resources>

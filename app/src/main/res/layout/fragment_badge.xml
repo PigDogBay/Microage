@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BadgeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".TeamMemberFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Stinking badges" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            android:src="@drawable/badge"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/team_member_content_desc"
+            />
+
+        <TextView
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="Every expedition to the International Space Station (ISS) has a unique badge. Typically, the designs feature images that represent the mission." />
+
+        <TextView
+            android:layout_marginTop="32dp"
+            style="@style/Microage.Widget.Text.Body"
+            android:text="How would you design your badge if you were headed to space? We are runninga competition to include 24 personalised mission badges within our experiment to the ISS in November 2021! To take part in this exciting opportunity and to have your design flown into space, we encourage you to submit your design as soon as possible." />
+        <TextView
+            style="@style/Microage.Widget.Text.Body"
+            android:textStyle="bold"
+            android:text="Deadline for all submissions is 31st March 2021." />
+
+        <TextView
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="Materials required" />
+        <TextView
+            android:layout_marginTop="8dp"
+            style="@style/Microage.Widget.Text.Body"
+            android:text="★ Mission badge worksheet or large blank piece of paper. Badges come in a wide variety of shapes - these are just a starting point!" />
+        <TextView
+            style="@style/Microage.Widget.Text.Body"
+            android:text="★ Pencils, coloured pencils, markers, etc." />
+
+        <TextView
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="Activity guidance" />
+        <TextView
+            android:layout_marginTop="8dp"
+            style="@style/Microage.Widget.Text.Body"
+            android:text="★ Designs must incorporate the following areas; Liverpool, Muscles, Aging and Space. Please note, we can not include anything which is copyrighted." />
+        <TextView
+            style="@style/Microage.Widget.Text.Body"
+            android:text="★ Please include a few sentences to explain your design." />
+        <TextView
+            style="@style/Microage.Widget.Text.Body"
+            android:text="★ Successful designs will be sent to a print company to be turned into a final mission badge" />
+
+        <ImageView
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="64dp"
+            android:src="@drawable/upload_button"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/badge_upload_button_content_desc"
+            />
+
+    </LinearLayout>
+</ScrollView>

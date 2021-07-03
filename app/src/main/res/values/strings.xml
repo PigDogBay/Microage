@@ -16,5 +16,6 @@
     <string name="team_member_content_desc">Team Member Portrait</string>
     <string name="team_member_others">Miss Sofia Callow\n\nMiss Jessica Dullehan\n\nMiss Sophie Ellie\n\nMiss Jade Warren\n\nThe University of Liverpool Mobile UI Team</string>
     <string name="astronaut_coming_soon">Coming soon…</string>
+    <string name="badge_upload_button_content_desc">Upload badge</string>
 
 </resources>
