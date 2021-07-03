@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AstronautFragment">
+    android:fillViewport="true"
+    tools:context=".TeamMemberFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Meet An Astronaut" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            android:src="@drawable/astronaut"
+            style="@style/Microage.ImageView"
+            android:contentDescription="@string/team_member_content_desc"
+            />
+
+        <TextView
+            style="@style/Microage.Widget.Text.Subtitle"
+            android:text="@string/astronaut_coming_soon" />
+
+    </LinearLayout>
+</ScrollView>
