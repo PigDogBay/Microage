@@ -13,5 +13,6 @@
     <string name="team_member_title_planet">Favourite Planet</string>
     <string name="team_member_title_planet_dwarf">Favourite (Dwarf) Planet</string>
     <string name="team_member_title_fact">Fun Fact</string>
+    <string name="team_member_content_desc">Team Member Portrait</string>
 
 </resources>

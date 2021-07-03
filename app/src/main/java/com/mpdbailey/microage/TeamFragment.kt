@@ -44,6 +44,7 @@ class TeamMemberFragment : Fragment() {
         binding.teamMemberPlanet.text = person.planet
         binding.teamMemberFact.text = person.fact
         binding.teamMemberBio.text = person.bio
+        binding.teamMemberImage.setImageResource(person.portraitId)
         if (person === TeamFactory.anne) {
             binding.teamMemberPlanetTitle.setText(R.string.team_member_title_planet_dwarf)
         }
